@@ -1,0 +1,161 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    display: list-item;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    border-radius: 20px;
+}
+
+#skills li:hover{
+    background-color: #3498db;
+}
+
+#projects {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.project {
+    margin: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#resume {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#resume a {
+    color: #3498db;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#education {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+#education ul {
+    list-style-type: none;
+}
+
+#education li {
+    display: list-item;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    border-radius: 20px;
+}
+#education ul li:hover{
+    background-color: #3498db;
+}
+
+.image{
+    width: 500px;
+}
+
+.image:hover{
+    cursor:zoom-in;
+}
+
+#hobbies {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+#hobbies ul li:hover{
+    background-color: #3498db;
+}
+
+#hobbies ul {
+    list-style-type: none;
+}
+
+#hobbies li {
+    display: list-item;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    border-radius: 20px;
+}
